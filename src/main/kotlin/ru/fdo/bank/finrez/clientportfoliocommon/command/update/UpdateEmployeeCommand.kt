@@ -4,5 +4,5 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier
 
 data class UpdateEmployeeCommand(
     @TargetAggregateIdentifier val contractId: String,
-    val employeeId: String,
+    val employeeId: String
 )
