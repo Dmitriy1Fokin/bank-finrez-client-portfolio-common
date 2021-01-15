@@ -4,7 +4,7 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier
 import java.time.LocalDate
 
 data class CreateCorpCreditCommand(
-    @TargetAggregateIdentifier val id: String,
+    @TargetAggregateIdentifier val contractId: String,
     val clientId: String,
     val employeeId: String,
     val programId: String,
